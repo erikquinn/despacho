@@ -1,0 +1,9 @@
+#strip-list {
+  padding: 10px;
+  margin: 0;
+}
+
+.strip {
+  font-size: 0.80em;
+  border: 1px solid black;
+}

@@ -1,0 +1,417 @@
+{
+  "last-update": "09/28/2016",
+  "list": [
+    {
+      "callsign": "UAL860",
+      "days": "UMT--FS",
+      "eta": "0620",
+      "gate": "",
+      "dest": "IG"
+    },
+    {
+      "callsign": "SAA207",
+      "days": "U--W-F-",
+      "eta": "0625",
+      "gate": "B37",
+      "dest": "FIS/IG"
+    },
+    {
+      "callsign": "SAA209",
+      "days": "-MT-R-S",
+      "eta": "0625",
+      "gate": "B37",
+      "dest": "FIS/IG"
+    },
+    {
+      "callsign": "ETH500",
+      "days": "UMTWRFS",
+      "eta": "0730",
+      "gate": "A31",
+      "dest": "IG"
+    },
+    {
+      "callsign": "POE719",
+      "days": "-M---F-",
+      "eta": "0710",
+      "gate": "A26",
+      "dest": "IG"
+    },
+    {
+      "callsign": "UAE231",
+      "days": "UMTWRFS",
+      "eta": "0810",
+      "gate": "A20",
+      "dest": "IG"
+    },
+    {
+      "callsign": "ANA2",
+      "days": "UMTWRFS",
+      "eta": "0940",
+      "gate": "B41",
+      "dest": "FIS/IG"
+    },
+    {
+      "callsign": "POE721",
+      "days": "------S",
+      "eta": "1005",
+      "gate": "A26",
+      "dest": "IG"
+    },
+    {
+      "callsign": "UAL123",
+      "days": "UMTWRFS",
+      "eta": "1050",
+      "gate": "",
+      "dest": "IG"
+    },
+    {
+      "callsign": "THY177(8W)",
+      "days": "U-T-R--",
+      "eta": "1110",
+      "gate": "B40",
+      "dest": "IG"
+    },
+    {
+      "callsign": "POE723",
+      "days": "U-TW---",
+      "eta": "1125",
+      "gate": "A26",
+      "dest": "IG"
+    },
+    {
+      "callsign": "KAL93",
+      "days": "UMTWRFS",
+      "eta": "1130",
+      "gate": "A32",
+      "dest": "IG"
+    },
+    {
+      "callsign": "AFL104",
+      "days": "-M-----",
+      "eta": "1240",
+      "gate": "A14",
+      "dest": "IG"
+    },
+    {
+      "callsign": "BAW217(7W)",
+      "days": "UMTWRFS",
+      "eta": "1245",
+      "gate": "B44",
+      "dest": "IG"
+    },
+    {
+      "callsign": "ICE647",
+      "days": "UMTWR-S",
+      "eta": "1245",
+      "gate": "A19",
+      "dest": "IG"
+    },
+    {
+      "callsign": "BEL515",
+      "days": "UM-WRFS",
+      "eta": "1255",
+      "gate": "B41",
+      "dest": "FIS/IG"
+    },
+    {
+      "callsign": "POE725",
+      "days": "UMTWRFS",
+      "eta": "1305",
+      "gate": "A26",
+      "dest": "IG"
+    },
+    {
+      "callsign": "DLH416",
+      "days": "UMTWRFS",
+      "eta": "1325",
+      "gate": "B45",
+      "dest": "FIS/IG"
+    },
+    {
+      "callsign": "AVA246",
+      "days": "UMTWRFS",
+      "eta": "1343",
+      "gate": "B50",
+      "dest": "IG"
+    },
+    {
+      "callsign": "CMP304",
+      "days": "UMTWRFS",
+      "eta": "1358",
+      "gate": "A19",
+      "dest": "IG"
+    },
+    {
+      "callsign": "SVA35",
+      "days": "U-T--F-",
+      "eta": "1400",
+      "gate": "A31",
+      "dest": "IG"
+    },
+    {
+      "callsign": "SVA37",
+      "days": "-M-WR-S",
+      "eta": "1400",
+      "gate": "A31",
+      "dest": "IG"
+    },
+    {
+      "callsign": "TAI582",
+      "days": "UMTWRFS",
+      "eta": "1400",
+      "gate": "B48",
+      "dest": "IG"
+    },{
+      "callsign": "UAL101",
+      "days": "UMT--FS",
+      "eta": "1405",
+      "gate": "",
+      "dest": "IG"
+    },
+    {
+      "callsign": "UAL951",
+      "days": "UMTWRFS",
+      "eta": "1425",
+      "gate": "",
+      "dest": "IG"
+    },
+    {
+      "callsign": "UAL141",
+      "days": "UMTWRFS",
+      "eta": "1430",
+      "gate": "",
+      "dest": "IG"
+    },
+    {
+      "callsign": "CCA817",
+      "days": "-MT-R-S",
+      "eta": "1435",
+      "gate": "A23",
+      "dest": "FIS/IG"
+    },
+    {
+      "callsign": "UAL947",
+      "days": "UMTWRFS",
+      "eta": "1435",
+      "gate": "",
+      "dest": "IG"
+    },
+    {
+      "callsign": "AUA93",
+      "days": "UMTWRFS",
+      "eta": "1440",
+      "gate": "B49",
+      "dest": "FIS/IG"
+    },
+    {
+      "callsign": "UAL43",
+      "days": "UMTWRFS",
+      "eta": "1440",
+      "gate": "",
+      "dest": "IG"
+    },
+    {
+      "callsign": "QTR707",
+      "days": "UMTWRFS",
+      "eta": "1445",
+      "gate": "R11",
+      "dest": "IG"
+    },
+    {
+      "callsign": "UAL914",
+      "days": "UMTWRFS",
+      "eta": "1450",
+      "gate": "",
+      "dest": "IG"
+    },
+    {
+      "callsign": "UAL975",
+      "days": "UMTWRFS",
+      "eta": "1450",
+      "gate": "",
+      "dest": "IG"
+    },
+    {
+      "callsign": "UAL107",
+      "days": "UMTWRFS",
+      "eta": "1450",
+      "gate": "",
+      "dest": "IG"
+    },
+    {
+      "callsign": "UAL53",
+      "days": "UMTWRFS",
+      "eta": "1510",
+      "gate": "",
+      "dest": "IG"
+    },
+    {
+      "callsign": "UAL988",
+      "days": "UMTWRFS",
+      "eta": "1510",
+      "gate": "",
+      "dest": "IG"
+    },
+    {
+      "callsign": "VIR21K",
+      "days": "UMTWRFS",
+      "eta": "1510",
+      "gate": "A32",
+      "dest": "IG"
+    },
+    {
+      "callsign": "SAS925",
+      "days": "UMTWRFS",
+      "eta": "1515",
+      "gate": "B40",
+      "dest": "FIS/IG"
+    },
+    {
+      "callsign": "KLM651(17)",
+      "days": "UMTWRFS",
+      "eta": "1525",
+      "gate": "A15",
+      "dest": "IG"
+    },
+    {
+      "callsign": "UAL919",
+      "days": "UMTWRFS",
+      "eta": "1530",
+      "gate": "",
+      "dest": "IG"
+    },
+    {
+      "callsign": "UAL1567",
+      "days": "UMTWRFS",
+      "eta": "1530",
+      "gate": "",
+      "dest": "IG"
+    },
+    {
+      "callsign": "UAL804",
+      "days": "UMTWRFS",
+      "eta": "1545",
+      "gate": "",
+      "dest": "IG"
+    },
+    {
+      "callsign": "DLH418",
+      "days": "UMTWRFS",
+      "eta": "1555",
+      "gate": "B45",
+      "dest": "FIS/IG"
+    },
+    {
+      "callsign": "AFR54",
+      "days": "UMTWRFS",
+      "eta": "1620",
+      "gate": "A20",
+      "dest": "IG"
+    },
+    {
+      "callsign": "POE727",
+      "days": "UMTWRF-",
+      "eta": "1800",
+      "gate": "A26",
+      "dest": "IG"
+    },
+    {
+      "callsign": "THY7",
+      "days": "UMTWRFS",
+      "eta": "1810",
+      "gate": "B41",
+      "dest": "IG"
+    },
+    {
+      "callsign": "LPE2800",
+      "days": "UM--R-S",
+      "eta": "1815",
+      "gate": "A23",
+      "dest": "IG"
+    },
+    {
+      "callsign": "AFR26",
+      "days": "UMTWRFS",
+      "eta": "1925",
+      "gate": "A20",
+      "dest": "IG"
+    },
+    {
+      "callsign": "ICE645",
+      "days": "UMTWRFS",
+      "eta": "1930",
+      "gate": "A19",
+      "dest": "IG"
+    },
+    {
+      "callsign": "DLH414(9Y)",
+      "days": "UMTWRFS",
+      "eta": "1940",
+      "gate": "B49",
+      "dest": "FIS/IG"
+    },
+    {
+      "callsign": "UAL925",
+      "days": "UMTWRFS",
+      "eta": "1945",
+      "gate": "",
+      "dest": "IG"
+    },
+    {
+      "callsign": "UAL808",
+      "days": "UMTWRFS",
+      "eta": "1955",
+      "gate": "",
+      "dest": "IG"
+    },
+    {
+      "callsign": "UAL933",
+      "days": "UMTWRFS",
+      "eta": "2000",
+      "gate": "",
+      "dest": "IG"
+    },
+    {
+      "callsign": "UAL1133",
+      "days": "-----FS",
+      "eta": "2015",
+      "gate": "",
+      "dest": "IG"
+    },
+    {
+      "callsign": "TAI580",
+      "days": "UMTWRFS",
+      "eta": "2022",
+      "gate": "B48",
+      "dest": "IG"
+    },
+    {
+      "callsign": "BAW293",
+      "days": "UMTWRFS",
+      "eta": "2035",
+      "gate": "B48",
+      "dest": "IG"
+    },
+    {
+      "callsign": "RAM218",
+      "days": "--T-R-S",
+      "eta": "2155",
+      "gate": "B40",
+      "dest": "IG"
+    },
+    {
+      "callsign": "CMP488",
+      "days": "UMTWRFS",
+      "eta": "2347",
+      "gate": "A19",
+      "dest": "IG"
+    },
+    {
+      "callsign": "AMX622",
+      "days": "UM--RFS",
+      "eta": "2358",
+      "gate": "B37",
+      "dest": "IG"
+    }
+  ]
+}

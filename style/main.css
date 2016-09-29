@@ -1,0 +1,36 @@
+#command {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 30px;
+  width: 100%;
+}
+
+#content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: calc(100% - 30px);
+  width: 100%;
+  overflow: scroll;
+}
+
+#strip-bay {
+  float:left;
+  height: 100%;
+  width: 300px;
+  border-right: 1px solid black;
+}
+
+#map {
+  float: left;
+  height: 100%;
+  width: calc(100% - 502px);
+}
+
+#lounge-bay {
+  float: right;
+  height: 100%;
+  width: 200px;
+  border-left: 1px solid black;
+}
