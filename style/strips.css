@@ -1,9 +1,60 @@
 #strip-list {
+  position: absolute;
+  bottom: 0;
+  height: auto;
+  width: 280px;
   padding: 10px;
   margin: 0;
 }
 
 .strip {
+  height: 30px;
+  width: 100%;
   font-size: 0.80em;
+  border: 1px solid black;
+  margin-top: 5px;
+  text-align: center;
+}
+
+.column1 {
+  display: inline-block;
+  width: 85px;
+}
+
+.callsign {
+  width: 100%;
+  border: 1px solid black;
+}
+
+.passengers {
+  position: relative;
+  top: -15px;
+  display: inline-block;
+  height: 28px;
+  width: 25px;
+  border: 1px solid black;
+}
+
+.eta {
+  display: inline-block;
+  width: 100%;
+  border: 1px solid black;
+}
+
+.gate {
+  position: relative;
+  top: -15px;
+  display: inline-block;
+  height: 28px;
+  width: 32px;
+  border: 1px solid black;
+}
+
+.destination {
+  position: relative;
+  top: -15px;
+  display: inline-block;
+  height: 28px;
+  width: 48px;
   border: 1px solid black;
 }

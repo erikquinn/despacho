@@ -1,3 +1,9 @@
+body {
+  background-color: #333;
+  color: #555;
+  font-family: 'Oxygen Mono'
+}
+
 #command {
   position: absolute;
   bottom: 0;

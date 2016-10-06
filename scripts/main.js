@@ -18,7 +18,14 @@ $.getJSON("./data/operators.json", function(data) {
 function listFlights(data) {
   console.log(data);
   for(var i=0; i<data.list.length; i++) {
-    //document.write(data.list[i].callsign);
+  // for(var i=0; i==0; i++) {
+    var html = '<li class="strip"><span class="column1"><div class="callsign">'
+      + data.list[i].callsign + '</div><div class="eta">'
+      + data.list[i].eta + '</div></span><span class="gate">'
+      + (data.list[i].gate || "?") + '</span><span class="passengers">'
+      + (data.list[i].passengers || "#") + '</span><span class="destination">'
+      + data.list[i].dest + '</span></li>';
+    $("#strip-list").append(html);
   }
 }
 
@@ -70,7 +77,7 @@ function createStrips() {
   var scrollPos = $("#strips").scrollTop();
   $("#strips").prepend(this.html);
   $("#strips").scrollTop(scrollPos + 45);  // shift scroll down one strip's height
-    
+
   // Determine whether or not to show the strip in our bay
   if (this.category == "arrival") this.html.hide(0);
   else if (this.category == "departure") this.inside_ctr = true;
