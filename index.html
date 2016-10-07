@@ -14,21 +14,21 @@
     <link rel="stylesheet" href="style/strips.css">
 </head>
 <body>
-    <input id="command" placeholder="type to select a lounge" autofocus="true" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false">
+    <span id="strip-bay">
+        <ul id="strip-list">
+        </ul>
+    </span>
     <div id="content">
-        <span id="strip-bay">
-            <ul id="strip-list">
-            </ul>
-        </span>
         <span id="map"></span>
-        <span id="lounge-bay">
-            <div>
-                <ul id="available-operators"></ul>
-            </div>
-            <div>
-                <ul id="scheduled-operators"></ul>
-            </div>
-        </span>
+        <input id="command" placeholder="type to select a lounge" autofocus="true" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false">
     </div>
+    <span id="lounge-bay">
+        <div>
+            <ul id="available-operators"></ul>
+        </div>
+        <div>
+            <ul id="scheduled-operators"></ul>
+        </div>
+    </span>
 </body>
 </html>
