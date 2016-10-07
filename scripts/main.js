@@ -20,6 +20,8 @@ function listFlights(data) {
   for(var i=0; i<data.list.length; i++) {
     $("#strip-list").append(createStrip(data.list[i]));
     scroll_to_bottom($("#strip-list"));
+    $("#strip-list").sortable({axis: "y"});
+    $("#strip-list").disableSelection();
   }
 }
 
