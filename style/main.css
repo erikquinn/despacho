@@ -22,10 +22,15 @@ body {
     font-size: 17px;
 }
 
+#menu {
+    height: 20px;
+    width: 100%;
+}
+
 #content {
   float: left;
   height: 100%;
-  width: calc(100% - 567px);
+  width: calc(100% - 502px);
 }
 
 #strip-bay {
@@ -44,6 +49,6 @@ body {
 #lounge-bay {
   float: right;
   height: 100%;
-  width: 255px;
+  width: 200px;
   border-left: 1px solid black;
 }

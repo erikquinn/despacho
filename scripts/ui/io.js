@@ -1,5 +1,3 @@
 $(document).ready(function() {
-    $('#menu').fileMenu({
-        slideSpeed: 125
-    });
+    initializeFileMenu();
 });

@@ -86,7 +86,7 @@
 /***************************** Lounge strips *****************************/
 #available-operators {
     height: calc(75% - 1px);
-    width: 245px;
+    width: 190px;
     overflow-y: auto;
     list-style-type: none;
     font-size: 12px;
@@ -112,7 +112,7 @@
 
 #scheduled-operators {
     height: 25%;
-    width: 245px;
+    width: 190px;
     overflow-y: auto;
     list-style-type: none;
     font-size: 12px;
@@ -155,7 +155,7 @@
 
 .operator-shift-end {
     float: left;
-    width: 80px;
+    width: 30px;
     margin-left: 5px;
 }
 

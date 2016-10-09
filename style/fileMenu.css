@@ -4,12 +4,12 @@
     font-size: 14px;
     font-weight: bold;
     list-style: none;
-    padding: 0 0 0 5px;
+    padding: 0;
     margin: 0;
     background: #191919;
-    -webkit-user-select: none;  
-    -moz-user-select: none;    
-    -ms-user-select: none;      
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
     user-select: none;
     color: #777;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.25);
@@ -24,7 +24,7 @@
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.176);
     min-width: 250px;
     background: #191919;
-    border: 1px solid #ccc;
+    border: 1px solid #555;
     border-radius: 0 0 5px 5px;
     color: #777;
     font-weight: 300;
@@ -45,9 +45,9 @@
 .fileMenu li {
     cursor: default;
     transition: all .1s;
-    -webkit-user-select: none;  
-    -moz-user-select: none;    
-    -ms-user-select: none;      
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
     user-select: none;
 }
 
@@ -63,7 +63,7 @@
     text-align: center;
     color: #444;
     transition: all .1s;
-    
+
 }
 
 .fileMenu li i:before {
