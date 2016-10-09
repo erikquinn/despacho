@@ -6,12 +6,17 @@
 
     <!-- My Scripts -->
     <script src="scripts/main.js"></script>
+    <script src="scripts/ui/io.js"></script>
     <script src="scripts/util/ui_helpers.js"></script>
+    <script src="scripts/util/math_helpers.js"></script>
+    <script src="scripts/util/string_helpers.js"></script>
+    <script src="scripts/util/fileMenu.js"></script>
 
     <!-- Styling -->
     <link rel="stylesheet" href="style/main.css">
     <link rel="stylesheet" href="style/font.css">
     <link rel="stylesheet" href="style/strips.css">
+    <link rel="stylesheet" href="style/fileMenu.css">
 </head>
 <body>
     <span id="strip-bay">
@@ -19,6 +24,30 @@
         </ul>
     </span>
     <div id="content">
+        <ul id="menu">
+            <li>Add
+                <ul>
+                    <li><i class="fa fa-fw fa-file"></i> Open<kbd>Ctrl+N</kbd></li>
+                    <li class="disabled"><i class="fa fa-fw fa-folder-open"></i> Open<kbd>Ctrl+O</kbd></li>
+                    <li class="sub">
+                        <i class="fa fa-fw"></i> Open Recent...
+                        <ul>
+                            <li><i class="fa fa-fw fa-file"></i> File A</li>
+                            <li><i class="fa fa-fw fa-file"></i> File B</li>
+                            <li><i class="fa fa-fw fa-file"></i> File C</li>
+                        </ul>
+                    </li>
+                    <li class="divider"></li>
+                    <li><i class="fa fa-fw"></i> Quit<kbd>Ctrl+Q</kbd></li>
+                </ul>
+            </li>
+            <li>Options
+                <ul>
+                    <li class="toggle"><i class="fa fa-fw"></i> Toggle me</li>
+                    <li><i class="fa fa-fw fa-question-circle"></i> About<kbd>F1</kbd></li>
+                </ul>
+            </li>
+        </ul>
         <span id="map"></span>
         <input id="command" placeholder="type to select a lounge" autofocus="true" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false">
     </div>

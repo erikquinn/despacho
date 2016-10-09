@@ -5,7 +5,7 @@
     width: 280px;
     padding: 0px 10px 5px 10px;
     margin: 0;
-    overflow-y: scroll;
+    overflow-y: auto;
     list-style-type: none;
 }
 
@@ -24,7 +24,7 @@
 	background-color: #666;
 }
 
-.strip {
+.flight-strip {
     height: 30px;
     width: 100%;
     font-size: 10px;
@@ -76,6 +76,87 @@
     display: table-cell;
     vertical-align: middle;
     width: 48px;
+}
+
+
+
+
+
+
+/***************************** Lounge strips *****************************/
+#available-operators {
+    height: calc(75% - 1px);
+    width: 245px;
+    overflow-y: auto;
+    list-style-type: none;
+    font-size: 12px;
+    padding: 0px 5px 0px 5px;
+    margin: 0;
+    border-bottom: 1px solid black;
+}
+
+/* Webkit Scrollbar Styling */
+#available-operators::-webkit-scrollbar {
+	width: 12px;
+}
+#available-operators::-webkit-scrollbar-track {
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	border-radius: 10px;
+	background-color: #444;
+}
+#available-operators::-webkit-scrollbar-thumb {
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: #666;
+}
+
+#scheduled-operators {
+    height: 25%;
+    width: 245px;
+    overflow-y: auto;
+    list-style-type: none;
+    font-size: 12px;
+    padding: 0px 5px 0px 5px;
+    margin: 0;
+}
+
+/* Webkit Scrollbar Styling */
+#scheduled-operators::-webkit-scrollbar {
+	width: 12px;
+}
+#scheduled-operators::-webkit-scrollbar-track {
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	border-radius: 10px;
+	background-color: #444;
+}
+#scheduled-operators::-webkit-scrollbar-thumb {
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: #666;
+}
+
+.operator-strip {
+    display: inline-block;
+    height: auto;
+    width: 100%;
+}
+
+.operator-name {
+    float: left;
+    width: 110px;
+    margin-right: 5px;
+}
+
+.operator-lounge {
+    float: left;
+    width: 18px;
+    margin: 0px 5px 0px 5px;
+}
+
+.operator-shift-end {
+    float: left;
+    width: 80px;
+    margin-left: 5px;
 }
 
 /* Container classes (for vertical alignment) */

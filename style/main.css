@@ -25,7 +25,7 @@ body {
 #content {
   float: left;
   height: 100%;
-  width: calc(100% - 502px);
+  width: calc(100% - 567px);
 }
 
 #strip-bay {
@@ -37,13 +37,13 @@ body {
 
 #map {
   float: left;
-  height: calc(100% - 30px);
+  height: calc(100% - 55px);
   width: 100%;
 }
 
 #lounge-bay {
   float: right;
   height: 100%;
-  width: 200px;
+  width: 255px;
   border-left: 1px solid black;
 }

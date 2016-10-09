@@ -18,7 +18,7 @@ $.getJSON("./data/operators.json", function(data) {
 function listFlights(data) {
   console.log(data);
   for(var i=0; i<data.list.length; i++) {
-    $("#strip-list").append(createStrip(data.list[i]));
+    $("#strip-list").append(createFlightStrip(data.list[i]));
     scroll_to_bottom($("#strip-list"));
     $("#strip-list").sortable({axis: "y"});
     $("#strip-list").disableSelection();
@@ -34,14 +34,23 @@ function listLounges(data) {
 function listOperators(data) {
   console.log(data);
   for(var i=0; i<data.list.length; i++) {
+      $("#available-operators").append(createOperatorStrip(data.list[i]));
+      $("#scheduled-operators").append(createOperatorStrip(data.list[i]));
   }
 }
 
-function createStrip(flight) {
+function createFlightStrip(flight) {
     var callsign = doublewrap_span(flight.callsign, ['callsign'], ['container']);
     var gate_eta = wrap_span(wrap_div((flight.gate || "?"), ['gate']) +
         wrap_div((flight.eta || "?"), ['eta'], ['container']), ['gate-eta']);
     var pax = doublewrap_span((flight.passengers || "#"), ['passengers'], ['container']);
     var dest = doublewrap_span((flight.dest || "?"), ['destination'], ['container']);
-    return '<li class="strip">' + callsign + gate_eta + pax + dest + '</li>';
+    return '<li class="flight-strip">' + callsign + gate_eta + pax + dest + '</li>';
+}
+
+function createOperatorStrip(operator) {
+    var name = wrap_span(abbreviateOperatorName(operator.name), ['operator-name']);
+    var lounge = wrap_span("GA", ['operator-lounge']);
+    var shiftEnd = wrap_span("1800", ['operator-shift-end']);
+    return '<li class="operator-strip">' + name + lounge + shiftEnd + '</li>';
 }
