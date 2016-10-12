@@ -17,8 +17,9 @@ $.getJSON("./data/operators.json", function(data) {
 
 function listFlights(data) {
   console.log(data);
+  $("#strip-list").append(createFlightStripSeparator());
   for(var i=0; i<data.list.length; i++) {
-    $("#strip-list").append(createFlightStrip(data.list[i]));
+    $("#strip-list").prepend(createFlightStrip(data.list[i]));
     scroll_to_bottom($("#strip-list"));
     $("#strip-list").sortable({axis: "y"});
     $("#strip-list").disableSelection();
@@ -37,6 +38,14 @@ function listOperators(data) {
       $("#available-operators").append(createOperatorStrip(data.list[i]));
       $("#scheduled-operators").append(createOperatorStrip(data.list[i]));
   }
+}
+
+function createFlightStripSeparator() {
+    var content = "IN PASSUR RANGE";
+    return '<li class="flight-strip" style="background-color:#777;">'
+        + '<span class="container" style="width: 100%; font-size: 18px;">'
+        + '<span style="vertical-align:middle;display: table-cell;">'
+        + content + '</span></span></li>';
 }
 
 function createFlightStrip(flight) {
